@@ -9,13 +9,13 @@ defmodule ExEtudesTest.Ch03 do
   end
 
   test "solution to étude 3-2" do
-    try do
-      etude32(:rectangle, -3, 4)
-      etude32(:triangle, 3, -4)
-      etude32(:ellipse, -3, -4)
-    rescue
-      [CompileError] -> "expected"
-    end
+    # try do
+    #   etude32(:rectangle, -3, 4)
+    #   etude32(:triangle, 3, -4)
+    #   etude32(:ellipse, -3, -4)
+    # rescue
+    #   [CompileError] -> "expected"
+    # end
 
     assert etude32(:rectangle, 3, 4) == 12
     assert etude32(:triangle, 3, 5) == 7.5
@@ -30,11 +30,11 @@ defmodule ExEtudesTest.Ch03 do
   end
 
   test "solution to étude 3-4" do
-    try do
-     etude34(:triangle, 7, 3)
-    rescue
-      [UndefinedFunctionError] -> "rescued"
-    end
+    # try do
+    #  etude34(:triangle, 7, 3)
+    # rescue
+    #   [UndefinedFunctionError] -> "rescued"
+    # end
     assert etude34({:rectangle, 7, 3}) == 21
     assert etude34({:triangle, 7, 3}) == 10.5
     assert etude34({:ellipse, 7, 3}) == 65.97344572538566
