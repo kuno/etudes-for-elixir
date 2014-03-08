@@ -1,4 +1,4 @@
-defmodule Exetudes.Ch02 do
+defmodule ExEtudes.Ch02 do
   # Étude 2-1
   def etude21(x, y) do
     x * y

@@ -1,4 +1,4 @@
-defmodule Exetudes.Supervisor do
+defmodule ExEtudes.Supervisor do
   use Supervisor.Behaviour
 
   def start_link do
@@ -8,7 +8,7 @@ defmodule Exetudes.Supervisor do
   def init([]) do
     children = [
       # Define workers and child supervisors to be supervised
-      # worker(Exetudes.Worker, [])
+      # worker(ExEtudes.Worker, [])
     ]
 
     # See http://elixir-lang.org/docs/stable/Supervisor.Behaviour.html

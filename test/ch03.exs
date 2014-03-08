@@ -1,6 +1,6 @@
-defmodule ExetudesTest.Ch03 do
+defmodule ExEtudesTest.Ch03 do
   use ExUnit.Case
-  import Exetudes.Ch03
+  import ExEtudes.Ch03
 
   test "solution to étude 3-1" do
     assert etude31(:rectangle, 3, 4) == 12

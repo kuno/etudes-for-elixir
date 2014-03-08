@@ -1,4 +1,4 @@
-defmodule Exetudes.Mixfile do
+defmodule ExEtudes.Mixfile do
   use Mix.Project
 
   def project do
@@ -10,7 +10,7 @@ defmodule Exetudes.Mixfile do
 
   # Configuration for the OTP application
   def application do
-    [mod: { Exetudes, [] }]
+    [mod: { ExEtudes, [] }]
   end
 
   # Returns the list of dependencies in the format:

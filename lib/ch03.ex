@@ -1,4 +1,4 @@
-defmodule Exetudes.Ch03 do
+defmodule ExEtudes.Ch03 do
 
   # Étude 3-1
   def etude31(:rectangle, x, y), do: x * y

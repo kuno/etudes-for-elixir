@@ -1,4 +1,4 @@
-defmodule ExetudesTest.Ch07 do
+defmodule ExEtudesTest.Ch07 do
   use ExUnit.Case
 
   test "the truth" do

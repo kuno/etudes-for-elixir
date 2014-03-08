@@ -1,6 +1,6 @@
-defmodule ExetudesTest.Ch02 do
+defmodule ExEtudesTest.Ch02 do
   use ExUnit.Case
-  import Exetudes.Ch02
+  import ExEtudes.Ch02
 
   test "solution to étude 2-1" do
     assert etude21(3, 4) == 12
@@ -15,8 +15,8 @@ defmodule ExetudesTest.Ch02 do
 
   test "solution to étude 2-3" do
     assert true
-    #assert Module.get_attribute(Exetudes.Ch02, :moduledoc)
-    #assert Exetudes.Ch02.area.doc
+    #assert Module.get_attribute(ExEtudes.Ch02, :moduledoc)
+    #assert ExEtudes.Ch02.area.doc
   end
 
   test "solution to étude 2-4" do
