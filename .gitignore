@@ -1,6 +1,7 @@
 *.erl
 *.beam
 *~
+deps
 _build
 ebin
 erl_crash.dump
